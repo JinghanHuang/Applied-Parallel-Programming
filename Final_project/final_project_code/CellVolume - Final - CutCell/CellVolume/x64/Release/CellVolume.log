@@ -1,0 +1,71 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\TSP520C\Documents\Visual Studio 2015\Projects\CellVolume - Final - CutCell\CellVolume>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\TSP520C\Documents\Visual Studio 2015\Projects\CellVolume - Final - CutCell\CellVolume\kernel.cu" 
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(54): warning : integer conversion resulted in a change of sign
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(142): warning : variable "next_x" was declared but never referenced
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(143): warning : variable "next_y" was declared but never referenced
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(81): warning : variable "tIdx" was declared but never referenced
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(569): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(576): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(582): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(589): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(596): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(644): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(651): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(657): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(663): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(669): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(676): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(682): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(688): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(694): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(54): warning : integer conversion resulted in a change of sign
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(142): warning : variable "next_x" was declared but never referenced
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(143): warning : variable "next_y" was declared but never referenced
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(81): warning : variable "tIdx" was declared but never referenced
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(569): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(576): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(582): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(589): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(596): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(644): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(651): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(657): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(663): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(669): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(676): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(682): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(688): warning : transfer of control bypasses initialization of:
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(694): warning : transfer of control bypasses initialization of:
+  kernel.cu
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(378): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(379): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(406): warning C4244: 'initializing': conversion from 'float' to 'uint', possible loss of data
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(424): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(425): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(523): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(338): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'unsigned char *'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(338): note: consider using '%hhd' in the format string
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(354): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'unsigned char *'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(354): note: consider using '%hhd' in the format string
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(599): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(626): warning C4533: initialization of 'dimBlock' is skipped by 'goto Error'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(600): note: see declaration of 'dimBlock'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(626): note: see declaration of 'Error'
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(626): warning C4533: initialization of 'dimGrid' is skipped by 'goto Error'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(599): note: see declaration of 'dimGrid'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(626): note: see declaration of 'Error'
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(697): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(735): warning C4533: initialization of 'dimBlock' is skipped by 'goto Error'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(698): note: see declaration of 'dimBlock'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(735): note: see declaration of 'Error'
+C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(735): warning C4533: initialization of 'dimGrid' is skipped by 'goto Error'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(697): note: see declaration of 'dimGrid'
+  C:/Users/TSP520C/Documents/Visual Studio 2015/Projects/CellVolume - Final - CutCell/CellVolume/kernel.cu(735): note: see declaration of 'Error'
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  CellVolume.vcxproj -> C:\Users\TSP520C\Documents\Visual Studio 2015\Projects\CellVolume - Final - CutCell\x64\Release\CellVolume.exe
+  CellVolume.vcxproj -> C:\Users\TSP520C\Documents\Visual Studio 2015\Projects\CellVolume - Final - CutCell\x64\Release\CellVolume.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\TSP520C\Documents\Visual Studio 2015\Projects\CellVolume - Final - CutCell\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.

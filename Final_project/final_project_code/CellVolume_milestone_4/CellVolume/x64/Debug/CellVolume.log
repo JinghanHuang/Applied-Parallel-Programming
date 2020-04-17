@@ -1,0 +1,49 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\408\CellVolume_milestone_4\CellVolume>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\408\CellVolume_milestone_4\CellVolume\kernel.cu" 
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(92): warning : integer conversion resulted in a change of sign
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(52): warning : variable "tIdx" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(71): warning : variable "start_x" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(72): warning : variable "start_y" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(77): warning : variable "end_x" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(78): warning : variable "end_y" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(311): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(318): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(324): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(330): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(336): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(343): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(349): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(355): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(361): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(92): warning : integer conversion resulted in a change of sign
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(52): warning : variable "tIdx" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(71): warning : variable "start_x" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(72): warning : variable "start_y" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(77): warning : variable "end_x" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(78): warning : variable "end_y" was declared but never referenced
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(311): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(318): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(324): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(330): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(336): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(343): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(349): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(355): warning : transfer of control bypasses initialization of:
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(361): warning : transfer of control bypasses initialization of:
+  kernel.cu
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(163): warning C4244: 'initializing': conversion from 'float' to 'uint', possible loss of data
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(220): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(221): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(276): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(190): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'unsigned char *'
+  D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(190): note: consider using '%hhd' in the format string
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(192): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'unsigned char *'
+  D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(192): note: consider using '%hhd' in the format string
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(364): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(402): warning C4533: initialization of 'dimBlock' is skipped by 'goto Error'
+  D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(365): note: see declaration of 'dimBlock'
+  D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(402): note: see declaration of 'Error'
+D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(402): warning C4533: initialization of 'dimGrid' is skipped by 'goto Error'
+  D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(364): note: see declaration of 'dimGrid'
+  D:/408/CellVolume_milestone_4/CellVolume/kernel.cu(402): note: see declaration of 'Error'

@@ -1,0 +1,7 @@
+﻿  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  CellVolume.vcxproj -> D:\408\CellVolume_milestone_4\x64\Release\CellVolume.exe
+  CellVolume.vcxproj -> D:\408\CellVolume_milestone_4\x64\Release\CellVolume.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "D:\408\CellVolume_milestone_4\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.

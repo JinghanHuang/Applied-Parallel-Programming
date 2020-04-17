@@ -1,0 +1,75 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import tifffile as tiff\n",
+    "import numpy as np\n",
+    "from PIL import Image\n",
+    "import csv\n",
+    "import cv2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dtype:  uint16\n",
+      "image_size: (63, 437, 415)\n",
+      "image_x:  437\n",
+      "image_y:  415\n",
+      "image_z:  63\n"
+     ]
+    }
+   ],
+   "source": [
+    "im = tiff.imread(\"AICS-10_46_3.ome-c8.tif\")\n",
+    "\n",
+    "# tiff format information from allen cell data set\n",
+    "print (\"dtype: \",im.dtype)\n",
+    "print (\"image_size:\",im.shape)\n",
+    "print (\"image_x: \",im.shape[1])\n",
+    "print (\"image_y: \",im.shape[2])\n",
+    "print (\"image_z: \",im.shape[0])\n",
+    "\n",
+    "# output csv file\n",
+    "for k in range(im.shape[0]):\n",
+    "    with open(\"csv/im_\"+ str(k)+ \".csv\",\"w\") as csvfile: \n",
+    "        writer = csv.writer(csvfile)\n",
+    "        txt = []\n",
+    "        for i in range(im.shape[1]):\n",
+    "            txt.append(im[k][i])\n",
+    "        writer.writerows(txt)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
