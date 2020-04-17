@@ -5,5 +5,7 @@
 *.cubin
 *.fatbin
 
+*.ipynb linguist-language=CUDA
+
 */.DS_Store
 .DS_Store
